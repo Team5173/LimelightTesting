@@ -10,7 +10,6 @@ import edu.wpi.first.networktables.*;
 public class Robot extends TimedRobot {
   private DifferentialDrive m_myRobot;
   private XboxController Controller;
-  private boolean Bpressed;
   private NetworkTableEntry tx;
   private NetworkTableEntry ty;
   private NetworkTableEntry ta;
